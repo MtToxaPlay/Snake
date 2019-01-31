@@ -60,6 +60,12 @@ namespace Snake1
 
         }
 
+        public void Clear()
+        {
+            sym = ' ';
+            draw();
+        }
+
         public override string ToString()
         {
             return x + ", " + y + ", " + sym;
